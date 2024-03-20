@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v1 # Corrected version (v1 instead of v2)
+        uses: hashicorp/setup-terraform@v1 # Corrected version (v1 instead of v2).
 
       - name: Terraform Init
         id: init
